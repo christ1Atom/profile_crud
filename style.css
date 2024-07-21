@@ -1,0 +1,100 @@
+*{box-sizing:border-box; margin:0px; padding:0px; font-size:medium; family-font:sans-serif;}
+div{
+	display:flex;
+	width:700px;
+	margin:auto;
+	margin-top:5px;
+	justify-content:space-between;
+	align-items:center;
+	border-bottom:1px solid #333;
+}
+div img{
+	width:65px;
+	min-height:65px;
+	border-radius:50%;
+}
+div p{
+	font-size:22px;
+	min-height:50px;
+	color:#443;
+}
+form {
+	display:block;
+	width:700px; min-height:300px;
+	margin:auto;
+	border-radius:10px;
+	margin-bottom:10px;
+	margin-top:10px;
+	padding:10px;
+	outline:none;
+	background:#333;
+}
+form input{
+	margin:auto;
+	padding:10px;
+	border-radius:10px;
+	margin-bottom:10px;
+}
+form input[type="text"]{
+	display:block;
+	margin:auto;
+	padding:10px;
+	border-radius:10px;
+	margin-bottom:10px;
+}
+form input[type="number"]{
+	display:block;
+	margin:auto;
+	padding:10px;
+	border-radius:10px;
+	margin-bottom:10px;
+}
+form input[type="email"]{
+	display:block;
+	margin:auto;
+	padding:10px;
+	border-radius:10px;
+	margin-bottom:10px;
+}
+form input:focus{
+	border-radius:20px;
+	outline:none;
+	border-color:red;
+	color:green;
+}
+form input[type="submit"]{
+	display:block;
+	width:220px;
+	font-size:20px;
+	color:white;
+	background:green;
+}
+form select{
+	display:inline-block;
+	float:left;
+	width:100px;
+	border-radius:10px;
+	padding:10px;
+	margin-left:34%;
+	margin-bottom:10px;
+}
+form label{
+	display:block;
+	width:220px;
+	margin:auto;
+	text-align:center;
+	color:white;
+	font-size:18px;
+	padding:10px;
+	margin-bottom:10px;
+	background:blue;
+}
+form .n{
+	display:inline-block;
+	margin:0px;
+	float:left;
+	width:130px;
+}
+a{
+	text-decoration:none;
+}
